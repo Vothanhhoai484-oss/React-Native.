@@ -1,0 +1,58 @@
+THIẾT KẾ ỨNG DỤNG MYAPP_V1
+1. Ý tưởng thiết kế
+
+MyApp_V1 là ứng dụng thực hành xây dựng giao diện bằng React Native. Ứng dụng có giao diện hiện đại, sử dụng tông màu xanh dương và trắng, bố cục đơn giản, dễ sử dụng.
+
+2. Chức năng ứng dụng
+Hiển thị giao diện chào mừng.
+Nhập họ và tên người dùng.
+Hiển thị lời chào theo tên đã nhập.
+Tăng số lần nhấn nút.
+Đặt lại số đếm về 0.
+Hiển thị thông tin cuối trang.
+3. Cấu trúc Component
+
+Ứng dụng gồm 4 Component chính:
+
+App Component
+Header Component
+Main Component
+Footer Component
+4. Chức năng từng Component
+4.1. App Component
+Là Component chính.
+Kết nối Header, Main và Footer.
+Quản lý bố cục tổng thể.
+4.2. Header Component
+Hiển thị tên ứng dụng MyApp_V1.
+Hiển thị tiêu đề.
+Tạo phần đầu giao diện.
+4.3. Main Component
+Hiển thị nội dung chính.
+Nhập họ và tên.
+Hiển thị lời chào.
+Tạo nút tăng số và đặt lại.
+Quản lý dữ liệu bằng useState.
+4.4. Footer Component
+Hiển thị tên ứng dụng.
+Hiển thị thông tin bài thực hành.
+Hiển thị thông tin bản quyền.
+5. Công nghệ sử dụng
+React Native
+JavaScript
+Expo Snack
+View
+Text
+TextInput
+TouchableOpacity
+ScrollView
+StyleSheet
+useState
+6. Hình ảnh thiết kế
+Hình ảnh Header
+Hình ảnh Main
+Hình ảnh Footer
+Hình ảnh tổng thể ứng dụng
+7. Kết luận
+
+Đã xây dựng ứng dụng MyApp_V1 bằng React Native, thực hành tạo các Component riêng biệt và kết hợp chúng để tạo thành giao diện hoàn chỉnh.
